@@ -1,0 +1,28 @@
+{
+  "name": "cloud.socket.server",
+  "version": "1.0.0",
+  "description": "winsoft cloud socket server for upload",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=*:error node ./build/index.js",
+    "dev": "DEBUG=* node ./build/index.js",
+    "test": "node ./build/test/fs_test.js"
+  },
+  "keywords": [
+    "nodejs",
+    "socket"
+  ],
+  "author": "joew",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "buffer-crc32": "^0.2.13",
+    "debug": "^2.6.8",
+    "mkdirp": "^0.5.1",
+    "q": "^1.5.0"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^7.0.28"
+  }
+}
