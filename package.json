@@ -15,7 +15,7 @@
   "author": "joew",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.21.1",
     "buffer-crc32": "^0.2.13",
     "debug": "^2.6.8",
     "mkdirp": "^0.5.1",
